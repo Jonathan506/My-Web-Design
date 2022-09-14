@@ -1,0 +1,270 @@
+*{
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+}
+
+/*inicio del HEADER*/
+header{
+    background-image: url(/assets/img/fondo.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+}
+
+.content{
+    /* max-width: 1280px; */
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+}
+
+.div-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1.25em;
+    width: 95%;
+}
+
+.div-header p{
+    font-size: 1.5rem;
+}
+
+.div-header ul{
+    display: flex;
+}
+
+.div-header ul li{
+    list-style: none;
+    margin-right: 1.563em;
+}
+
+.div-header ul li a{
+    color: #54595f;
+    text-decoration: none;
+}
+
+.div-header ul li a:hover{
+    border-bottom: 2px solid #5cb8ff;
+}
+
+a{
+    text-decoration: none;
+}
+
+.title{
+    margin-top: 180px; 
+    text-align: center;
+}
+
+h1{
+    font-size: 3.75rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: .1em;
+}
+
+h2{
+    font-size: 25px;
+    margin-top: 5px;
+    margin-bottom: 40px;
+}
+
+.title a{
+    color: #ffffff;
+    background-color: #5cb8ff;
+    border-radius: 20px;
+    display: inline-block;
+    font-size: 16px;
+    padding: 20px 30px;
+    transition: all .2s;
+}
+
+.title a:hover{
+    background-color: #40a8fa;
+}
+/*Fin Header*/
+
+h3{
+    font-size: 55px;
+    font-weight: normal;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/*Incio Sección Aboutme*/
+.content-about-me{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.content-about-me img{
+    border-radius: 10px;
+}
+
+.content-p-a{
+    width: 42%;
+}
+
+.content-p-a p{
+    font-size: 18px;
+    text-align: center;
+}
+
+.p-final{
+    margin-bottom: 15px;
+}
+
+.content-p-a a{
+    color: #ffffff;
+    background-color: #5cb8ff;
+    border-radius: 15px;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 20px;
+    padding: 20px 30px 20px 30px;
+    transition: all.2s;
+}
+
+.content-p-a a:hover{
+    background-color: #40a8fa;
+}
+
+/*Fin Sección Aboutme*/
+
+/*Inicio Sección Services*/
+.content-service{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.service{
+    color: #ffffff;
+    border-radius: 10px;
+    margin-bottom: 40px;
+    padding: 38px;
+    width: 29%;
+}
+
+.violet{
+    background-color: #5055df;
+}
+
+.skyblue{
+    background-color: #40a8fa;
+}
+
+.service h4{
+    text-align: center;
+}
+
+.service img{
+    float: right;
+}
+
+/*Fin Sección Service*/
+
+/**//**//**/
+/*FOOTER*/
+/**//**//**/
+#content-footer{
+    max-width: 1280px;
+    margin: auto;
+    width: 100%;
+}
+.contenedor{
+    /* max-width: 1200px; */
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+footer{
+    background-color:rgba(84, 89, 95,.7) ;
+}
+
+.footer-content{
+    display: flex;
+    /* justify-content: space-between; */
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.contact-us{
+    width: 40%;
+    color: #fff;
+}
+
+.brand{
+    font-weight: 500;
+    font-size: 40px;
+    margin-bottom: 5px;
+}
+
+.contact-us p{
+    font-weight: 500;
+}
+
+.social-media{
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.social-media-icon{
+    display: inline-block;
+    margin-left: 20px;
+    width: 60px;
+    height: 60px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    text-align: center;
+    color: #fff;
+}
+
+.social-media-icon.face:hover{
+    background: #fff;
+    color: #3b5998;
+}
+
+.social-media-icon.twitter:hover{
+    background: #fff;
+    color:  #00acee;
+}
+
+.social-media-icon.instagram:hover{
+    background: #fff;
+    color: #bc2a8d;
+}
+
+.social-media-icon i{
+    font-size: 30px;
+    line-height: 60px;
+}
+
+.line{
+    width: 95%;
+    margin: 0 auto;
+    height: 2px;
+    background: #fff;
+    margin-bottom: 20px;
+}
+
+.copy{
+    margin-left: 10px;
+    margin-bottom: 0;
+}
+/*Fin Footer*/
