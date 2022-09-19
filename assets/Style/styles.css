@@ -3,10 +3,6 @@
     box-sizing: border-box;
 }
 
-body{
-    margin: 0;
-}
-
 /*inicio del HEADER*/
 header{
     background-image: url(/assets/img/fondo.jpg);
@@ -24,45 +20,53 @@ header{
     width: 90%;
 }
 
+a{
+    color: #ffffff;
+    text-decoration: none;
+}
+
 .div-header{
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-left: auto;
     margin-right: auto;
-    padding: 1.25em;
+    padding: 1em;
     width: 95%;
 }
 
 .div-header p{
-    font-size: 1.5rem;
+    font-size: 2rem;
+    font-family: 'Ms Madi', cursive;
+    font-weight: 400;
 }
 
 .div-header ul{
     display: flex;
 }
 
-.div-header ul li{
+.div-header li{
     list-style: none;
-    margin-right: 1.563em;
+    margin-right: 1.6em;
 }
 
-.div-header ul li a{
+.div-header a{
     color: #54595f;
-    text-decoration: none;
 }
 
-.div-header ul li a:hover{
+.div-header a:hover{
     border-bottom: 2px solid #5cb8ff;
-}
-
-a{
-    text-decoration: none;
 }
 
 .title{
     margin-top: 180px; 
     text-align: center;
+}
+
+h1,
+h2,
+h3{
+    color: #54595f;
 }
 
 h1{
@@ -73,18 +77,17 @@ h1{
 }
 
 h2{
-    font-size: 25px;
+    font-size: 1.5rem;
     margin-top: 5px;
     margin-bottom: 40px;
 }
 
 .title a{
-    color: #ffffff;
     background-color: #5cb8ff;
-    border-radius: 20px;
+    border-radius: 55px;
     display: inline-block;
-    font-size: 16px;
-    padding: 20px 30px;
+    font-size: 1rem;
+    padding: 1rem 2rem;
     transition: all .2s;
 }
 
@@ -94,44 +97,48 @@ h2{
 /*Fin Header*/
 
 h3{
-    font-size: 55px;
+    font-size: 3.5rem;
     font-weight: normal;
     margin-bottom: 10px;
     text-align: center;
 }
 
 /*Incio Sección Aboutme*/
+/* section{
+    height: 100vh;
+} */
+
 .content-about-me{
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-evenly;
+    margin-bottom: 6.9rem;
 }
 
 .content-about-me img{
-    border-radius: 10px;
+    border-radius: 50%;
 }
 
 .content-p-a{
-    width: 42%;
+    width: 50%;
 }
 
 .content-p-a p{
-    font-size: 18px;
+    font-size: 1.2rem;
     text-align: center;
 }
 
 .p-final{
-    margin-bottom: 15px;
+    margin-bottom: 1rem;
 }
 
 .content-p-a a{
-    color: #ffffff;
     background-color: #5cb8ff;
-    border-radius: 15px;
+    border-radius: 55px;
     display: inline-block;
-    font-size: 16px;
+    font-size: 1rem;
     margin-top: 20px;
-    padding: 20px 30px 20px 30px;
+    padding: 1rem 2rem;
     transition: all.2s;
 }
 
@@ -165,7 +172,9 @@ h3{
 }
 
 .service h4{
+    font-size: 1rem;
     text-align: center;
+    letter-spacing: 3px;
 }
 
 .service img{
@@ -177,40 +186,32 @@ h3{
 /**//**//**/
 /*FOOTER*/
 /**//**//**/
-#content-footer{
-    max-width: 1280px;
-    margin: auto;
-    width: 100%;
-}
-.contenedor{
-    /* max-width: 1200px; */
-    overflow: hidden;
-    margin-left: auto;
-    margin-right: auto;
-}
 
 footer{
-    background-color:rgba(84, 89, 95,.7) ;
+    background-color:rgba(84, 89, 95,.7);
 }
 
 .footer-content{
     display: flex;
+    max-width: 1200px;
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
     /* justify-content: space-between; */
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding: 20px 0;
 }
 
 .contact-us{
-    width: 40%;
     color: #fff;
+    width: 42%;
 }
 
 .brand{
     font-weight: 500;
-    font-size: 40px;
+    font-size: 2.5rem;
     margin-bottom: 5px;
 }
 
@@ -256,15 +257,17 @@ footer{
 }
 
 .line{
-    width: 95%;
-    margin: 0 auto;
+    width: 85%;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
     height: 2px;
     background: #fff;
     margin-bottom: 20px;
 }
 
 .copy{
-    margin-left: 10px;
     margin-bottom: 0;
+    text-align: center;
 }
 /*Fin Footer*/
