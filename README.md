@@ -1,3 +1,3 @@
 # MY WEB DESIGN
 
-![Preview](/Web-Design.png)
+![Preview](/Preview.png)
