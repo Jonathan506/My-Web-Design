@@ -23,7 +23,7 @@
 
 .link,
 .boton{
-    color: #ffffff;
+    color: #fff;
     text-decoration: none;
 }
 
@@ -91,7 +91,7 @@
 .botton-main,
 .botton-aboutme{
     background-color: #5cb8ff;
-    border-radius: 55px;
+    border-radius: 15px;
     display: inline-block;
     font-size: 1rem;
     padding: 1rem 2rem;
