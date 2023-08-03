@@ -50,6 +50,7 @@
 .header-list-item{
     list-style: none;
     margin-right: 1.6em;
+    transition: all .2s;
 }
 
 .link{
@@ -101,6 +102,7 @@
 .botton-main:hover,
 .botton-aboutme:hover{
     background-color: #40a8fa;
+    transform: scale(1.2);
 }
 
 .botton-main:active,
@@ -246,14 +248,24 @@
     color: #3b5998;
 }
 
-.social-media-icon.twitter:hover{
+.social-media-icon.github:hover{
     background: #fff;
-    color:  #00acee;
+    color:  #171515;
 }
 
 .social-media-icon.instagram:hover{
     background: #fff;
     color: #bc2a8d;
+}
+
+.social-media-icon.gmail:hover{
+    background: #fff;
+    color: #BB001B;
+}
+
+.header-list-item:hover,
+.social-media-icon:hover{
+    transform: scale(1.2);
 }
 
 .social-media-icon:active{
